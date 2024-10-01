@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KillShot Key System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>KillShot Key System</h1>
+    <form id="key-form">
+        <label for="key-input">Enter your key:</label>
+        <input type="text" id="key-input" required>
+        <button type="submit">Submit</button>
+    </form>
+    <div id="content" class="hidden">
+        <h2>Welcome to KillShot</h2>
+        <p>Your key has been accepted!</p>
+        <!-- Add more protected content here -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
